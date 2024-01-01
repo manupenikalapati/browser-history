@@ -1,0 +1,12 @@
+.no-history-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.no-history {
+  font-family: 'Roboto';
+  color: #64748b;
+}

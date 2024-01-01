@@ -1,0 +1,65 @@
+.item-card {
+  margin: 20px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 80px;
+  color: #475569;
+}
+.img-text-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-delete-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.text-card {
+  width: 150px;
+}
+
+.app-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .item-card {
+    display: flex;
+  }
+
+  .img-text-card {
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  .text-card {
+    width: 100%;
+  }
+}
